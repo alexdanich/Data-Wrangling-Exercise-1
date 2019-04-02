@@ -36,7 +36,7 @@ mydata12<-unite(mydata11, "full_address", address, city, country, sep =",")
 mydata12
 #3: Add product categories
 product<-c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25)
-product_category<-c("Smartphone","Smartphone", "Laptop", "Laptop", "Laptop", "Smartphone", "TV", "TV", "Laptop", "Tablet", "Tablet","Laptop", "Smartphone", "TV", "TV", "Laptop", "TV", "TV", "Laptop", "Smartphone", "Laptop","Tablet", "Tablet", "Tablet")
+product_category<-c("Smartphone","Smartphone", "Laptop", "Laptop", "Laptop", "Smartphone", "TV", "TV", "Laptop", "Smartphone","Tablet", "Tablet","Laptop", "Smartphone", "TV", "TV", "Laptop", "TV", "TV", "Laptop", "Smartphone", "Laptop","Tablet", "Tablet", "Tablet")
 product_category
 mydata13<-cbind(product, product_category)
 mydata13
